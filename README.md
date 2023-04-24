@@ -2,6 +2,9 @@
 
 将一个值转换为一个引用，以实现在不同类中共享一个值等功能
 
+## nuget
+https://www.nuget.org/packages/EasyValueToRef
+
 ## 用法
 
 ```csharp
