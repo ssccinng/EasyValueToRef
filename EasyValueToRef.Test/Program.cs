@@ -23,7 +23,7 @@ if (v)
 
 Console.WriteLine(a + 32);
 a.SetValue(a - 32);
-if (a * a == 1)
+if (a == 1)
 {
     Console.WriteLine("a big than 1");
 }
