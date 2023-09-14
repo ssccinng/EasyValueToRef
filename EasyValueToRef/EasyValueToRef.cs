@@ -2,7 +2,7 @@
 
 namespace EasyValueToRef
 {
-    public class Ref<T> where T : struct
+    public class Ref<T>
     {
         private T _value;
         // 重载运算符使得他能和t直接+-
