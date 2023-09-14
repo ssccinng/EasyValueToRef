@@ -4,6 +4,7 @@ namespace EasyValueToRef
 {
     public class Ref<T>
     {
+        public T Value { get => _value; set => _value = value; }
         private T _value;
         // 重载运算符使得他能和t直接+-
         //public static T operator +(Ref<T> r, T t)

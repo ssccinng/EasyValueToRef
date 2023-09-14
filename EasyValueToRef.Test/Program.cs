@@ -21,6 +21,16 @@ if (v)
     Console.WriteLine("v is true");
 }
 
+
+bb.Value = true;
+
+Console.WriteLine(v);
+if (v)
+{
+    Console.WriteLine("v is true");
+}
+
+
 Console.WriteLine(a + 32);
 a.SetValue(a - 32);
 if (a == 1)
